@@ -13,7 +13,7 @@ var am_nyams = require('./routes/am_nyams.js')
 
 var app = express()
 
-// view engine setup
+// view engine setupp
 app.engine('ejs', require('ejs-locals'))
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
